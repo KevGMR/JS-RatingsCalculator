@@ -1,10 +1,10 @@
 function collect_ratings(){
-    const ratings = {
+    let ratings = {
         count : 0,
         sum : 0,
         average : 0,
     }
-    const rating = 0;
+    let rating = 0;
 
     const elements = document.querySelectorAll('rating');
 
